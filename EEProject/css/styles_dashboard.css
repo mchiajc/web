@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: 0;
+}
+
+header {
+	padding: 32px;
+}
+
+
+footer {
+	padding: 20px 30px;
+	background-color: #dbecf1;
+}
+
+main {
+	background-color: #797979;
+}
+
+.syles-logo {
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 160px;
+	height: 75px;
+	
+	display: block;
+}
+
+
+.style-nav ul {
+	list-style-type: none;
+}
+
+.style-nav ul li a {
+	text-decoration: none;
+	color: #2F322A;
+	text-align: center;
+	display:block;
+	text-transform: capitalize;
+	padding-top: 6px;
+	padding-left: 19px;
+	font-size: 27px;
+	
+}
+
+
+.row:before, .row:after {
+	content: "";
+	display: table;
+	}
+
+.row:after {
+	clear:both;
+}
+
+
+
+.footer-text {
+	
+	font-size: 13px;
+	margin-bottom: 20px;
+	
+}
+
+.col {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  max-width: 140px;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/*Tablet view*/
+
+
+@media (min-width: 768px){
+	
+	.style-nav ul li {
+		display: inline-block;
+	}
+	
+	.style-nav ul {
+		text-align: center
+	}
+	
+	.col-md-one-half {
+		width: 50%;
+	}
+	.col {
+		float: left;
+	}
+}
+
+
+/*Dektop view*/
+
+
+@media (min-width: 1024px){
+	
+	.syles-logo {
+		float:left;
+	}
+	
+	
+	.about {
+	background-color: #575757;
+
+	}
+	
+	.style-nav {
+		float: right;
+	}
+	
+}

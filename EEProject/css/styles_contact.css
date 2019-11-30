@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: 0;
+}
+
+header {
+	padding: 32px;
+}
+
+
+footer {
+	padding: 20px 30px;
+	background-color: #dbecf1;
+}
+
+main {
+	background-color: #797979;
+}
+
+.syles-logo {
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 160px;
+	height: 75px;
+	
+	display: block;
+}
+
+
+.style-nav ul {
+	list-style-type: none;
+}
+
+.style-nav ul li a {
+	text-decoration: none;
+	color: #2F322A;
+	text-align: center;
+	display:block;
+	text-transform: capitalize;
+	padding-top: 6px;
+	padding-left: 19px;
+	font-size: 27px;
+	
+}
+
+
+.row:before, .row:after {
+	content: "";
+	display: table;
+	}
+
+.row:after {
+	clear:both;
+}
+
+
+.hero {
+	background-color: darkgray;
+	padding: 50px 50px 50px 50px;
+	text-align: center;
+}
+
+
+.video {
+	background-color: #797979;
+	color: black;
+	padding: 50px 50px 50px 50px;
+	text-align: center;
+}
+
+.footer-text {
+	
+	font-size: 13px;
+	margin-bottom: 20px;
+	
+}
+
+.col {
+	width: 100%;
+}
+
+
+
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Tablet view*/
+
+
+@media (min-width: 768px){
+	
+	.style-nav ul li {
+		display: inline-block;
+	}
+	
+	.style-nav ul {
+		text-align: center
+	}
+	
+	.col-md-one-half {
+		width: 50%;
+	}
+	.col {
+		float: left;
+	}
+}
+
+
+/*Dektop view*/
+
+
+@media (min-width: 1024px){
+	
+	.syles-logo {
+		float:left;
+	}
+	
+	
+	.about {
+	background-color: #575757;
+
+	}
+	
+	.style-nav {
+		float: right;
+	}
+	
+}
+

@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: 0;
+}
+
+header {
+	padding: 32px;
+}
+
+
+footer {
+	padding: 20px 30px;
+	background-color: #dbecf1;
+}
+
+main {
+	background-color: #797979;
+}
+
+.syles-logo {
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 160px;
+	height: 75px;
+	
+	display: block;
+}
+
+
+.style-nav ul {
+	list-style-type: none;
+}
+
+.style-nav ul li a {
+	text-decoration: none;
+	color: #2F322A;
+	text-align: center;
+	display:block;
+	text-transform: capitalize;
+	padding-top: 6px;
+	padding-left: 19px;
+	font-size: 27px;
+	
+}
+
+
+.row:before, .row:after {
+	content: "";
+	display: table;
+	}
+
+.row:after {
+	clear:both;
+}
+
+
+.hero {
+	background-color: darkgray;
+	padding: 50px 50px 50px 50px;
+	text-align: center;
+}
+
+
+.animation {
+	background-color: #797979;
+	color: black;
+	padding: 50px 50px 50px 50px;
+	text-align: center;
+}
+
+.syles-animation {
+	
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	display: block;
+
+}
+
+
+.about {
+	background-color: #575757;
+	color: black;
+	padding: 50px 50px 50px 50px;
+	text-align: left;
+
+	}
+
+.about p {
+
+	font-size: 25px;
+	color: black;
+	padding: 20px 50px 50px 0px;
+
+
+	}
+
+
+.industries {
+	background-color: firebrick;
+	color: black;
+	padding: 50px 50px 50px 50px;
+	text-align: left;
+}
+
+.industries	h1{
+	padding: 0px 0px 30px 0px;
+}
+
+.industries li {
+	font-size: 22px;
+	color: black;
+	padding: 10px 10px 10px 10px;
+
+}
+
+.footer-text {
+	
+	font-size: 13px;
+	margin-bottom: 20px;
+	
+}
+
+
+
+.col {
+	width: 100%;
+
+}
+
+
+/*Tablet view*/
+
+
+@media (min-width: 768px){
+	
+	.style-nav ul li {
+		display: inline-block;
+	}
+	
+	.style-nav ul {
+		text-align: center
+	}
+	
+	.col-md-one-half {
+		width: 50%;
+	}
+	.col {
+		float: left;
+	}
+}
+
+
+/*Dektop view*/
+
+
+@media (min-width: 1024px){
+	
+	.syles-logo {
+		float:left;
+	}
+	
+	
+	.about {
+	background-color: #575757;
+
+	}
+	
+	.style-nav {
+		float: right;
+	}
+	
+}
+

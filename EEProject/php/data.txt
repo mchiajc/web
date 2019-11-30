@@ -1,0 +1,6 @@
+<p>Lazer temperature = 62 deg C</p>
+<p>Drill speed = 2000 rpm</p>
+<p>Smoke alarm = false</p>
+<p>Rotary oil level = 62%</p>
+<p>Lazer cleaning= required</p>
+<p>Energy consumption = 200 KWh</p>
